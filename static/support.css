@@ -1,0 +1,70 @@
+body {background-color: #383F51;
+padding-left: 50px;
+padding-right: 50px;
+}
+.img{
+	/*background-image: url("hands_alone.JPG");*/
+	height: 250px; /*width: 85%;*/
+	margin-left: auto;
+  margin-right: auto;
+	background-repeat: no-repeat;
+}
+.navBar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.links a {
+	text-decoration:  none;
+	color:  #D1BEB0;
+}
+.links a:hover {
+	color: #AB9F9D;
+}
+.links a{
+	margin-left:  25px;
+}
+ul {
+  top: 0;
+  width: 100%;
+  display: inline;
+}
+h1 {
+	font-family: 'Alegreya', serif; 
+	color: #AB9F9D;
+	text-align: center;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Alegreya', serif; 
+	color: #AB9F9D;
+	font-size: 25px;
+}
+h3 {
+	font-family: 'Alegreya', serif;
+		color: #AB9F9D;
+		font-size: 20px;
+	}
+	.sites div a:hover {
+	color: white;
+}
+.sites div a {
+	text-decoration:  none;
+	color:  royalblue;
+}
+h4 {
+	font-family: 'Alegreya', serif;
+	color: #AB9F9D;
+	text-align: center;
+font-size: 50px;}
+h5 {
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+}
+.list div a:hover {
+	color: #DDDBF1;
+}
+.list div a {
+	text-decoration:  none;
+	color:  royalblue;
+}

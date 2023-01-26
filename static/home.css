@@ -1,0 +1,42 @@
+body {background-color: #3C4F76;
+padding-left: 50px;
+padding-right: 50px;
+}
+h1 {
+	font-family: 'Alegreya', serif; 
+	color: #AB9F9D;
+	text-align: center;
+	font-size: 75px;
+}
+h2 {
+	font-family: 'Alegreya', serif;
+	color: #DDDBF1;
+	text-align: center;
+}
+.Logo{
+	background-image: url("istockphoto-614211848-612x612.JPG");
+	height: 500px; width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.navBar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.links a {
+	text-decoration:  none;
+	color:  #D1BEB0;
+}
+.links a:hover {
+	color: #AB9F9D;
+}
+.links a{
+	margin-left:  25px;
+}
+ul {
+  top: 0;
+  width: 100%;
+  display: inline;
+}

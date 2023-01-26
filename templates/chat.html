@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+    <title>Better Days | Chat</title>
+</head>
+<body>
+
+    {% include "navbar.html" %}
+
+        <h1>
+            Comments
+        </h1>
+        <h2>Please feel free to leave a message or words of encouragement to others in your community
+        </h2>
+        <br>
+        <br>
+        <h3>
+      
+            <form action="{{ url_for('chat') }}" method="POST">
+
+                Username:
+                <input type="text"
+                       name="username">
+                <br />
+
+                Message text:
+                <input type="text" name="text" placeholder="">
+                <br />
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+       
+        <br />
+
+        All messages:
+
+        {% for message in messages %}
+        	<div>
+        		<ul>
+        			<ul>
+                        User: {{ message.username }}
+                    </ul>
+                    <br>
+        			<ul>
+                        Message: {{ message.text }}
+                    </ul>
+                    <br><br>
+        		</ul>
+        	</div>
+        {% endfor %}
+        <a href="{{url_for('delete')}}"><button type="button">Delete all</button></a>
+    </h3>
+    </body>
+</html>
+
+
+</body>
+</html>
