@@ -31,14 +31,4 @@ def get_all_messages():
     return reversed(SESSION.query(Message).all())
 
 def delete_all_messages():
-	num_rows_deleted = SESSION.query(Message).delete()
-	print(num_rows_deleted)
-
-
-
-
-
-
-
-
-
+    SESSION.query(Message).delete()

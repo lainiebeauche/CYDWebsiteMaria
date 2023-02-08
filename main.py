@@ -15,7 +15,7 @@ def support():
 def delete():
     # delete all messages
     delete_all_messages()
-    return redirect(url_for('chat'))
+    return redirect(url_for('home'))
 
 
 @app.route('/chat', methods=['GET', 'POST'])
